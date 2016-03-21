@@ -378,7 +378,6 @@ show_config() {
   config_message="$config_message\n - ATV Remote support:\t\t\t $ATVCLIENT_SUPPORT"
   config_message="$config_message\n - CEC Adapter support:\t\t\t $CEC_SUPPORT"
   config_message="$config_message\n - IRTrans support:\t\t\t $IRSERVER_SUPPORT"
-  config_message="$config_message\n - Kodi Joystick support:\t\t $JOYSTICK_SUPPORT"
 
   # Misc. hardware configuration
 
@@ -412,6 +411,8 @@ show_config() {
   config_message="$config_message\n - SAMBA mounting support:\t\t $SAMBA_SUPPORT"
   config_message="$config_message\n - SAMBA server support:\t\t $SAMBA_SERVER"
   config_message="$config_message\n - SFTP server support:\t\t\t $SFTP_SERVER"
+  config_message="$config_message\n - PPTP support:\t\t\t $PPTP_SUPPORT"
+  config_message="$config_message\n - OpenVPN support:\t\t\t $OPENVPN_SUPPORT"
 
   # OS configuration
 
